@@ -12,7 +12,7 @@ haar_file = '/path/to/project/directory/haarcascade_frontalface_default.xml'
 datasets = '/path/to/project/directory/faces'
 # Sub dataset in 'faces' folder. Each folder is specific to an individual person
 # change the name below when creating a new dataset for a new person
-sub_dataset = 'Abdullah'
+sub_dataset = 'Harsh'
 
 # join the paths to include the sub_dataset folder
 path = os.path.join(datasets, sub_dataset)
